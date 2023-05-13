@@ -12,7 +12,7 @@ NixOS container on top of macOS, with heavy integration features.
 Run the following in an environment that already has nix installed:
 
 ```
-nix run github:nix-community/nixos-generators -- -f raw-efi -c configuration.nix
+nix run github:nix-community/nixos-generators -- -f raw-efi -c configuration.nix -I nixpkgs=channel:nixos-22.11
 ```
 
 Then feed the `aarch64.yml` in this repo and the generated image to lima.

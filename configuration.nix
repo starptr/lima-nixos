@@ -7,8 +7,8 @@
 
     # ssh
     services.openssh.enable = true;
-    #services.openssh.permitRootLogin = "yes";
-    services.openssh.settings.PermitRootLogin = "yes";
+    services.openssh.permitRootLogin = "yes";
+    #services.openssh.settings.PermitRootLogin = "yes";
     users.users.root.password = "nixos";
 
     security = {
