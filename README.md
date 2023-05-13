@@ -16,3 +16,6 @@ nix run github:nix-community/nixos-generators -- -f raw-efi -c configuration.nix
 ```
 
 Then feed the `aarch64.yml` in this repo and the generated image to lima.
+
+## References
+https://github.com/lima-vm/lima/discussions/430
