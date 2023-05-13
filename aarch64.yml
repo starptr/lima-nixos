@@ -1,5 +1,5 @@
 #arch: "x86_64"
- arch: "aarch64"
+arch: "aarch64"
 
 images:
   - location: "./imgs/nixos-aarch64.img"
