@@ -1,11 +1,11 @@
 # NixOS image generator for Lima
 Based off of [`patryk4815/ctftools`](https://github.com/patryk4815/ctftools).
 
-Currently, there's no "good" way to run nix on macOS. The nix package manager
-for darwin is frankly broken and traditional virtual machines are not ideal
-to use for everyday tasks. This repo allows a workflow which uses
-[lima](https://github.com/lima-vm/lima), which makes it very easy to run a light
-NixOS container on top of macOS, with heavy integration features.
+This repo allows a workflow which uses [lima](https://github.com/lima-vm/lima),
+which makes it very easy to run a light NixOS container on top of macOS,
+with heavy integration features.
+
+However, consider using [nix-installer](https://github.com/DeterminateSystems/nix-installer).
 
 ## Generating the image
 
